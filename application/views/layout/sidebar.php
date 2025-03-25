@@ -38,6 +38,9 @@
                     <div class="nav-item">
                         <a href="<?= base_url('resgate'); ?>"><i class="ik ik-truck" style="color: White;"></i><span style="color: #f2f3ef; font-family: 'Roboto', sans-serif; font-size: 14px;">Resgate de Animais</span> <span class="badge badge-success"></span></a>
                     </div>
+                    <div class="nav-item">
+                        <a href="<?= base_url('graficos'); ?>"><i class="ik ik-bar-chart" style="color: White;"></i><span style="color: #f2f3ef; font-family: 'Roboto', sans-serif; font-size: 14px;">Gráficos</span> <span class="badge badge-success"></span></a>
+                    </div>
                     <?php if ($this->ion_auth->is_admin()) : ?>
                         <div class="nav-lavel" style=" background-color: Black;"><span style="color: #f2f3ef; font-family: 'Roboto', sans-serif; font-size: 16px;">Administração</span></div>
                         <div class="nav-item <?php echo ($this->router->fetch_class() == 'usuarios' && $this->router->fetch_method() == 'index' ? 'active' : ''); ?>">

@@ -5,9 +5,10 @@
 
 <div class="main-content">
     <div class="container-fluid">
+        
         <div class="row clearfix">
             <div class="col-xl-4 col-md-12">
-                <div class="card comp-card" style="background-color: White;">
+                <div class="card comp-card" style="background-color: White;">                    
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col">
@@ -99,6 +100,7 @@
                 </div>
             </div>
         </div>
+
 
     </div>
 </div>

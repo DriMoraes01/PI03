@@ -17,6 +17,7 @@ class Home extends CI_Controller {
 
 	}
 
+	
 	public function index()
 	{
 		$this->load->model('home_model');
@@ -42,14 +43,13 @@ class Home extends CI_Controller {
 			
 			'mensalidades' => $this->core_model->get_all('mensalidades'),
 			
-		);		
+		);
 
-		
-		$this->load->view('layout/header',$data);		
+
+		$this->load->view('layout/header',$data);			
 		$this->load->view('home/index');
 		$this->load->view('layout/footer'); 
 	}
-
 
 	
 }

@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://localhost/helponpets/';
-$config['base_url'] = 'http://localhost/pi/PI02/';
+$config['base_url'] = 'http://localhost/pi03/';
 //$config['base_url'] = 'https://helponpets.000webhostapp.com/';
 /*
 |--------------------------------------------------------------------------

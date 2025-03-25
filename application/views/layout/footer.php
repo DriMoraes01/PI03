@@ -37,6 +37,9 @@
                         <div class="app-item">
                             <a href="<?= base_url('resgate'); ?>"><i class="ik ik-truck"></i><span>Resgates de Animais</span></a>
                         </div>
+                        <div class="app-item">
+                            <a href="<?= base_url('graficos'); ?>"><i class="ik ik-bar-chart"></i><span>Gráficos</span></a>
+                        </div>
                         <?php if ($this->ion_auth->is_admin()): ?>
                             <div class="app-item">
                                 <a href="<?= base_url('usuarios'); ?>"><i class="fas fa-users"></i><span>Usuários</span></a>
